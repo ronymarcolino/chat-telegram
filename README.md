@@ -2,6 +2,8 @@
 
 A Telegram bot that uses a local Ollama model to answer messages. The bot runs with `python-telegram-bot`, keeps a per-chat conversation history in memory, and sends each user message to a local LLM through Ollama.
 
+![Chat Telegram Bot](/image/telegram-chat-ollama.png)
+
 ## How It Works
 
 1. A user sends a message to the Telegram bot.
