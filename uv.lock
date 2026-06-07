@@ -41,6 +41,7 @@ name = "chat-telegram"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "httpx" },
     { name = "ollama" },
     { name = "pydotenv" },
     { name = "python-dotenv" },
@@ -49,6 +50,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "ollama", specifier = ">=0.6.1" },
     { name = "pydotenv", specifier = ">=0.0.7" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
